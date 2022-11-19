@@ -1,0 +1,36 @@
+{
+  "name": "vue-starter-pack-cli",
+  "version": "1.0.0",
+  "description": "cli for vue starter pack",
+  "main": "bin/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/WillElvire/vue-starter-pack-cli.git"
+  },
+  "type": "commonjs",
+  "keywords": [
+    "cli"
+  ],
+  "bin": {
+    "vsp": "./bin/index.js"
+  },
+  "author": "willelvire",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/WillElvire/vue-starter-pack-cli/issues"
+  },
+  "homepage": "https://github.com/WillElvire/vue-starter-pack-cli#readme",
+  "dependencies": {
+    "boxen": "^7.0.0",
+    "chalk": "^4.1.2",
+    "loader-in-console": "^1.2.1",
+    "log-beautify": "^1.2.0",
+    "nodemon": "^2.0.20",
+    "shelljs": "^0.8.5",
+    "yargs": "^17.6.2"
+  },
+  "start": "node --experimental-modules src/index.mjs "
+}
